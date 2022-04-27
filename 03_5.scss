@@ -1,0 +1,155 @@
+* {
+   font-family: "Nunito", sans-serif;
+   font-weight: 300;
+}
+
+h2 {
+   font-size: 30px;
+   font-weight: 200;
+}
+
+h5 {
+   font-size: 17px;
+   font-weight: 200;
+}
+
+i {
+   font-size: 16px;
+}
+
+.btn {
+   font-size: 14px;
+   font-weight: 200;
+}
+
+.card {
+   img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+   }
+}
+
+/* navigation */
+.navbar-brand {
+   font-weight: 200;
+   font-size: 26px;
+}
+.navbar i {
+   font-size: 13px;
+   margin-right: 6px;
+}
+
+/* carousel */
+.carousel-inner,
+.carousel-item {
+   height: 70vh;
+}
+
+.carousel-inner {
+   .carousel-caption:after {
+      content: ""; // ::before and ::after both require content
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.2;
+      z-index: 1;
+   }
+   .carousel-caption > * {
+      z-index: 10;
+      position: relative;
+   }
+   h3 {
+      font-size: 70px;
+      font-weight: 400;
+   }
+   .carousel-item img {
+      height: 100%;
+      object-fit: cover;
+   }
+   .carousel-caption {
+      left: 50%;
+      top: 50%;
+      right: auto;
+      bottom: auto;
+      transform: translate(-50%, -50%);
+      z-index: 110;
+   }
+}
+
+/* products */
+.products {
+   .list-group {
+      border: 1px solid rgb(206, 206, 206);
+   }
+}
+
+/* news */
+.news h5 {
+   font-size: 40px;
+   font-weight: 600;
+   color: white;
+}
+
+/* services */
+.services {
+   i {
+      font-size: 22px;
+   }
+   p {
+      font-size: 14px;
+      font-weight: 200;
+   }
+   h3 {
+      font-size: 20px;
+      font-weight: 200;
+   }
+   .card {
+      transition: background-color 1s, border-color 1s, border-color 0.2s;
+      img {
+         width: 100%;
+         height: 300px;
+         object-fit: cover;
+      }
+      i {
+         transition: all 0.2s ease-out;
+      }
+   }
+   .card:hover {
+      background-color: #007bff;
+      color: rgb(230, 230, 230);
+      border-color: #007bff;
+      i {
+         transform: scale(1.5, 1.5) rotate(-0.02turn) translateX(-4px)
+            translateY(11px);
+      }
+   }
+}
+
+/* contact */
+.contact {
+   background-color: rgb(232, 236, 240);
+   p {
+      font-size: 12px;
+      margin-bottom: 8px;
+   }
+   .note {
+      font-size: 10px;
+      margin-top: 6px;
+      margin-bottom: 13px;
+   }
+   input::placeholder {
+      font-size: 12px;
+      font-weight: 500;
+   }
+}
+
+/* footer */
+footer {
+   a {
+      font-size: 14px;
+   }
+}

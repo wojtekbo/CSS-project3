@@ -1,0 +1,182 @@
+* {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+i {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* navigation */
+.navbar-brand {
+  font-weight: 200;
+  font-size: 26px;
+}
+
+.navbar i {
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+/* carousel */
+.carousel-inner,
+.carousel-item {
+  height: 70vh;
+}
+
+.carousel-inner .carousel-caption:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.carousel-inner .carousel-caption > * {
+  z-index: 10;
+  position: relative;
+}
+
+.carousel-inner h3 {
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.carousel-inner .carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-inner .carousel-caption {
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 110;
+}
+
+/* products */
+.products .list-group {
+  border: 1px solid #cecece;
+}
+
+/* news */
+.news h5 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+/* services */
+.services i {
+  font-size: 22px;
+}
+
+.services p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.services h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.services .card {
+  -webkit-transition: background-color 1s, border-color 1s, border-color 0.2s;
+  transition: background-color 1s, border-color 1s, border-color 0.2s;
+}
+
+.services .card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.services .card i {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.services .card:hover {
+  background-color: #007bff;
+  color: #e6e6e6;
+  border-color: #007bff;
+}
+
+.services .card:hover i {
+  -webkit-transform: scale(1.5, 1.5) rotate(-0.02turn) translateX(-4px) translateY(11px);
+          transform: scale(1.5, 1.5) rotate(-0.02turn) translateX(-4px) translateY(11px);
+}
+
+/* contact */
+.contact {
+  background-color: #e8ecf0;
+}
+
+.contact p {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.contact .note {
+  font-size: 10px;
+  margin-top: 6px;
+  margin-bottom: 13px;
+}
+
+.contact input::-webkit-input-placeholder {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contact input:-ms-input-placeholder {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contact input::-ms-input-placeholder {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contact input::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* footer */
+footer a {
+  font-size: 14px;
+}
+/*# sourceMappingURL=03_5.css.map */
